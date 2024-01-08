@@ -1,0 +1,17 @@
+.items{
+    background-color: #B3C7D6FF;
+}
+
+.wishlist--items{
+    height: fit-content ;
+    width: 95vw;
+    margin: 1.8rem ;
+    background-color: white;
+}
+
+.item--container{
+    height: 40vh;
+    width: 90vw;
+    margin: 1rem ;
+    
+}
