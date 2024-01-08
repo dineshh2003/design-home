@@ -1,0 +1,18 @@
+.container--main{
+    height: 40vh;
+    width: 95vw;
+    margin-left: 5vw;
+    background-color: #B3C7D6FF;
+    background-size: cover;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin-top: 12px;
+    border-radius: 5px;
+}
+
+.heading--main{
+    margin-left: 30px;
+    margin-top: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

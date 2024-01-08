@@ -1,0 +1,64 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 4rem;
+    width: 100vw;
+    background-color: #2460A7FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo--img{
+    height: 4rem;
+    width: 5rem;
+    margin: 15px 15px ;
+}
+
+.Nav--link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.navbar-items{
+    list-style: none;
+    margin: 10px;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  } 
+
+  .navbar-items:hover{
+    font-size: 1.8rem;
+    color: #D9B48FFF;
+    font-style: italic;
+    transition-duration: 100ms;
+  }
+
+  
+.Cart-btn , .Login-btn{
+    transition-duration: 0.4s;
+    margin: 10px;
+    height: 2rem;
+    width: 5rem;
+    background-color: #85B3D1FF; 
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  .Cart-btn:hover, .Login-btn:hover {
+    background-color: #B3C7D6FF; 
+    border-radius: 5px;
+    color: white;
+    height: 3rem;
+    width: 6rem;
+  }

@@ -1,0 +1,30 @@
+.container--search{
+    height: 3rem;
+    width: 100vw;
+    background-color: #85B3D1FF ;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.search--bar{
+    height: 2rem;
+    width: 50vw;
+    /* margin: 12px; */
+    margin-right: 12px; 
+    padding: 12px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.new-arrival{
+    transition-duration: 0.4s;
+    margin: 10px;
+    height: 2rem;
+    width: 5rem;
+    background-color: #D9B48FFF; 
+    border-radius: 5px;
+    color: white;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
