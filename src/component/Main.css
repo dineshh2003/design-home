@@ -1,8 +1,8 @@
 .container--main{
-    height: 40vh;
+    height: 25vh;
     width: 95vw;
     margin-left: 5vw;
-    background-color: #B3C7D6FF;
+    background-color: #DDF2FD;
     background-size: cover;
     display: flex;
     justify-content:flex-start;
@@ -16,3 +16,9 @@
     margin-top: 12px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.rounded {
+    border-top: 3px solid white;
+    border-radius: 5px;
+    width: 90vw;
+  }

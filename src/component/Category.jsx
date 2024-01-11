@@ -44,23 +44,23 @@ const Category = () => {
 
       const callouts = [
         {
-          name: 'Desk and Office',
-          description: 'Work from home accessories',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg',
+          name: 'Candler holders and candle',
+          description: 'home decoration and lightning stuffs',
+          imageSrc: 'https://www.ikea.com/images/1e/fd/1efd1a3b88c516acc097a32dda4846b8.png?f=xxs',
           imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
           href: '#',
         },
         {
-          name: 'Self-Improvement',
-          description: 'Journals and note-taking',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
+          name: 'serverware',
+          description: 'home decoration and lightning stuffs',
+          imageSrc: 'https://www.ikea.com/images/32/89/32897f91d581885cdc97a899d5c45cc0.png?f=xxs',
           imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
           href: '#',
         },
         {
-          name: 'Travel',
-          description: 'Daily commute essentials',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+          name: 'Decorative lights for diwali',
+          description: 'home decorative and stuffs',
+          imageSrc: 'https://www.ikea.com/images/dc/6b/dc6beed7f8db1f725627b47a6bb12cf2.jpg?f=xxs',
           imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
           href: '#',
         },
@@ -70,7 +70,7 @@ const Category = () => {
         <div className="bg-gray-100">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-          <h2 className="text-2xl font-bold text-gray-900">Collections</h2>
+          <h2 className="text-2xl font-bold text-gray-900">Get Your home ready for celebration</h2>
 
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             {callouts.map((callout) => (
