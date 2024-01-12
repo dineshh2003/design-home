@@ -1,7 +1,7 @@
 import React from "react";
 import "../component/Navbar.css";
 import logo from "../component/images/logo-2.jpg";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Navigate , useNavigate} from "react-router-dom";
 
 
@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className="container">
       <img src={logo} alt="" className="logo--img" />
       <nav className="Nav--link">
-        <li className="navbar-items Home">
+        <li className="navbar-items ">
           <NavLink to="/">Home</NavLink>
         </li>
         <li className="navbar-items">

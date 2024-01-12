@@ -1,4 +1,6 @@
-
+/* .container--choice{
+  height: 100vh;
+} */
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -44,4 +46,72 @@
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
+  }
+
+  .products{
+    height: 100vh;
+    width: 95vw;
+    background-color: whitesmoke;
+    margin: 2vh;
+    margin-left: 5vw;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    height: 100vh;
+    background-color: #bbb;
+  }
+  
+  .column-img{
+      height:fit-content;
+     }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row-title-main-1{
+    height: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    margin: 10px 15px;
+  }
+  .roundedd {
+    border-top: 5px solid #DDF2FD;
+    border-radius: 5px;
+    width: 90vw;
+    margin-left: 10vw;
+  }
+  .row-2{
+    height: auto;
+    width: 95vw;
+    margin-left: 5vw;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+  }
+  .column-2{
+    height: auto;
+    width: 20vw;
+    margin: 30px 5px;
+    /* background-color: #bbb; */
+    
+  }
+  .btn{
+      margin: 5px 50px; 
+  } 
+  .btn:hover{
+    background-color: black;
+  }
+
+  .row-3{
+    height: 75vh;
+    width: 95vw;
+    margin-left: 5vw;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
   }
