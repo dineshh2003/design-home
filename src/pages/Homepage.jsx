@@ -8,12 +8,12 @@ import Choice from './Choice';
 const Homepage = () => {
   return (
     <div>
-        {/* <Navbar/>
+        <Navbar/>
         <Search/>
         <Main greating = {"Namaste !!!"} wish={"This is how we say great in India"} target={"Explore Our New collection"}/>
         <Category/>
-        <Footer/> */}
-        <Choice/>
+        <Footer/>
+        {/* <Choice/> */}
     </div>
   )
 }

@@ -115,3 +115,29 @@
     justify-content: center;
     align-items:flex-start;
   }
+  .row-4{
+    height: 75vh;
+    width: 95vw;
+    margin-left: 5vw;
+    background-color: whitesmoke;
+    /* display: flex;
+    justify-content: center;
+    align-items:flex-start; */
+  }
+  .scroll-container {
+    background-color: whitesmoke;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items:flex-start;
+    width: 100vw;
+
+  }
+  
+  .scroll-container img {
+    padding: 10px;
+    height: 52vh;
+    width: auto;
+  }
